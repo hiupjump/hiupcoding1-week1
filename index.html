@@ -1,14 +1,23 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>저녁 메뉴 추천</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+    <div class="container">
+        <h1>오늘 저녁 뭐 먹지?</h1>
+        <div id="category-buttons">
+            <button class="category-btn" id="korean">한식</button>
+            <button class="category-btn" id="chinese">중식</button>
+            <button class="category-btn" id="japanese">일식</button>
+            <button class="category-btn" id="western">양식</button>
+        </div>
+        <button id="recommendBtn">메뉴 추천 받기</button>
+        <h2 id="menu"></h2>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
