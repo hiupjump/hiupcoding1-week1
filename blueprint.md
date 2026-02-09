@@ -13,19 +13,30 @@ To transform the website's layout and aesthetics into a more modern, sophisticat
 *   **Responsive and Adaptive**: Ensure the design looks great on all screen sizes.
 *   **Better Spacing and Visual Hierarchy**: Optimize margins, paddings, and element sizing for better balance.
 
+## Proposed Design Direction: "Vibrant Minimalism with Playful Accents"
+
+*   **Color Palette**: A modern, vibrant, yet harmonious color scheme for both light and dark modes. A main accent color (e.g., a lively purple or teal) will be chosen, complemented by softer tones and stark contrasts for text.
+*   **Typography**: Clean, contemporary sans-serif font ('Pretendard') with varied weights for clear visual hierarchy. Bold headings, readable body text.
+*   **Layout**: Generous whitespace. Clean, card-like design for main content containers with subtle shadows and rounded corners.
+*   **Interaction & Animation**: Subtle hover effects on buttons and navigation links. Smooth reveal animation for menu recommendation display.
+*   **UI Elements**:
+    *   **Buttons**: Modern, slightly rounded buttons with subtle gradient backgrounds for primary actions, solid fills for secondary actions (category buttons). Enhanced hover states.
+    *   **Navigation**: Sleek, sticky header with clear navigation links and subtle underline animation on hover.
+    *   **Dark Mode Toggle**: Visually integrated and functional.
+
 ## Plan
 
 1.  **Update `style.css`**:
-    *   **Color Palette**: Define a fresh, modern color palette using CSS variables (`--primary-color`, `--secondary-color`, `--accent-color`, etc.) for both light and dark modes.
-    *   **Typography**: Change `font-family` to a more modern, sans-serif font. Adjust `font-size`, `line-height`, and `font-weight` for better readability and visual hierarchy.
-    *   **General Layout & Spacing**: Refine `body` and `main-content` layout. Increase overall spacing and padding for a cleaner look.
-    *   **Container**: Update `container` styles, possibly with softer shadows, borders, or a slightly different background.
-    *   **Buttons**: Redesign `recommendBtn` and `category-btn` for a more modern, perhaps slightly rounded or gradient-filled, appearance with improved hover effects.
-    *   **Header & Footer**: Make them sleeker, perhaps with transparent or semi-transparent backgrounds that adapt to dark mode.
-    *   **Dark Mode Toggle**: Ensure it seamlessly blends with the new design.
-    *   **Responsive Adjustments**: Review and refine media queries to ensure the new design scales well.
+    *   **Color Palette**: Implement the new color variables for both light and dark modes.
+    *   **Typography**: Apply the 'Pretendard' font and adjust font properties across the site.
+    *   **General Layout & Spacing**: Refine `body`, `main-content` layout, and element spacing.
+    *   **Header & Navigation**: Redesign to be sleeker with hover animations.
+    *   **Container**: Apply new card-like design (softer shadows, rounded corners).
+    *   **Buttons**: Implement new styles for `recommendBtn` and `category-btn` with gradients and improved hover effects.
+    *   **Dark Mode Toggle**: Ensure integration.
+    *   **Responsive Adjustments**: Review and refine media queries.
 
 2.  **Review HTML Files**:
-    *   Check `index.html`, `about.html`, `contact.html`, `privacy.html` for any minor structural adjustments needed to fully leverage the new CSS, although major changes are not anticipated.
+    *   Check `index.html`, `about.html`, `contact.html`, `privacy.html` for any minor structural adjustments needed to fully leverage the new CSS.
 
 3.  **Commit and Push**: Upload all design changes to the GitHub repository.
