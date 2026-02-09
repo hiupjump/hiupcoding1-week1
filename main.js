@@ -50,6 +50,17 @@ recommendBtn.addEventListener('click', () => {
     }, 300);
 });
 
+const darkModeToggle = document.getElementById('darkModeToggle');
+const body = document.body;
+
+darkModeToggle.addEventListener('change', () => {
+    if (darkModeToggle.checked) {
+        body.classList.add('dark-mode');
+    } else {
+        body.classList.remove('dark-mode');
+    }
+});
+
 // Initial setup
 menuEl.style.transition = 'opacity 0.3s ease-in-out, transform 0.3s ease-in-out';
 // Set default active category on load

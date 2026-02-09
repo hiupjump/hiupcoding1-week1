@@ -2,7 +2,7 @@
 
 ## Overview
 
-A simple web application that recommends a dinner menu to the user. Users can filter recommendations by food category (Korean, Chinese, Japanese, Western).
+A simple web application that recommends a dinner menu to the user. Users can filter recommendations by food category (Korean, Chinese, Japanese, Western) and toggle between light and dark modes.
 
 ## Features
 
@@ -11,15 +11,18 @@ A simple web application that recommends a dinner menu to the user. Users can fi
 *   A display area to show the recommended menu.
 *   A predefined list of dinner menus for each category.
 *   Random selection of a menu from the selected category.
+*   A toggle switch for light and dark modes.
 
 ## Plan
 
 1.  **HTML (`index.html`):**
     *   Create the basic structure with a main recommendation button and a display area.
     *   Add four buttons for the food categories.
+    *   Add a toggle switch for dark mode.
 2.  **CSS (`style.css`):**
     *   Add styles for the button and the display area to make the interface clean and user-friendly.
     *   Style the new category buttons, including a visual indicator for the selected category.
+    *   Implement dark mode using CSS variables and a `dark-mode` class on the `body` element.
 3.  **JavaScript (`main.js`):**
     *   Create separate arrays of dinner menu items for each food category.
     *   Add event listeners to the category buttons.
@@ -27,3 +30,4 @@ A simple web application that recommends a dinner menu to the user. Users can fi
     *   Add an event listener to the main recommendation button.
     *   When the main button is clicked, randomly select a menu from the currently active list.
     *   Display the selected menu in the display area.
+    *   Add an event listener to the dark mode toggle to add/remove the `dark-mode` class from the `body`.
