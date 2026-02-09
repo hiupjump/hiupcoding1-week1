@@ -47,56 +47,16 @@ header {
     padding: 10px 40px;
     background-color: var(--container-bg);
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    position: fixed;
+    position: sticky; /* Changed from fixed to sticky so it scrolls with content if page is long */
     top: 0;
-    left: 0;
     z-index: 1000;
 }
 
-.navbar {
-    display: flex;
-    align-items: center;
-}
-
-.nav-logo {
-    color: var(--header-text-color);
-    font-size: 1.5em;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.nav-menu {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0 0 0 40px;
-}
-
-.nav-item {
-    margin-left: 20px;
-}
-
-.nav-link {
-    color: var(--text-color);
-    text-decoration: none;
-    font-size: 1em;
-    transition: color 0.3s;
-}
-
-.nav-link:hover {
-    color: var(--menu-text-color);
-}
-
-main.main-content {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 80px; /* Adjust for fixed header */
-}
-
 .dark-mode-toggle {
-    position: relative;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1001; /* Ensure it's above the header */
     display: inline-block;
     width: 60px;
     height: 34px;
