@@ -1,33 +1,35 @@
-# Dinner Menu Recommendation Website
+# AdSense-Ready Dinner Menu Recommendation Website
 
-## Overview
+## Project Goal
 
-A simple web application that recommends a dinner menu to the user. Users can filter recommendations by food category (Korean, Chinese, Japanese, Western) and toggle between light and dark modes.
+To enhance the website to meet Google AdSense's "high-quality site" standards, increasing the likelihood of AdSense approval. This involves improving content, user experience, and trustworthiness.
 
-## Features
+## Key Improvements based on AdSense Guidelines
 
-*   A button to trigger the menu recommendation.
-*   Filter buttons for food categories: Korean, Chinese, Japanese, and Western.
-*   A display area to show the recommended menu.
-*   A predefined list of dinner menus for each category.
-*   Random selection of a menu from the selected category.
-*   A toggle switch for light and dark modes.
+*   **Unique & Valuable Content**: Expand the variety and quality of menu recommendations.
+*   **User-Centric Design**: Implement a clear navigation structure and ensure the site is easy to use.
+*   **Trust & Transparency**: Add essential pages like "About Us," "Contact Us," and a "Privacy Policy."
 
 ## Plan
 
-1.  **HTML (`index.html`):**
-    *   Create the basic structure with a main recommendation button and a display area.
-    *   Add four buttons for the food categories.
-    *   Add a toggle switch for dark mode.
-2.  **CSS (`style.css`):**
-    *   Add styles for the button and the display area to make the interface clean and user-friendly.
-    *   Style the new category buttons, including a visual indicator for the selected category.
-    *   Implement dark mode using CSS variables and a `dark-mode` class on the `body` element.
-3.  **JavaScript (`main.js`):**
-    *   Create separate arrays of dinner menu items for each food category.
-    *   Add event listeners to the category buttons.
-    *   When a category button is clicked, set the active menu list to the corresponding array.
-    *   Add an event listener to the main recommendation button.
-    *   When the main button is clicked, randomly select a menu from the currently active list.
-    *   Display the selected menu in the display area.
-    *   Add an event listener to the dark mode toggle to add/remove the `dark-mode` class from the `body`.
+1.  **Create Essential Pages**:
+    *   `about.html`: A page explaining the purpose and mission of the site.
+    *   `contact.html`: A page with contact information or a contact form.
+    *   `privacy.html`: A page detailing the site's privacy policy.
+
+2.  **Improve Site Structure**:
+    *   Modify `index.html` to include a header with a navigation bar linking to Home, About, and Contact pages.
+    *   Add a consistent footer to all pages with copyright information and links to About, Contact, and Privacy Policy.
+    *   Apply the same header/footer structure to `about.html`, `contact.html`, and `privacy.html`.
+
+3.  **Enhance Content**:
+    *   Significantly expand the menu lists in `main.js` to provide more diverse and interesting recommendations.
+
+4.  **SEO & Metadata**:
+    *   Add descriptive `<meta>` tags (description, keywords) to all HTML files to improve search engine visibility.
+
+5.  **Styling**:
+    *   Update `style.css` to ensure the new navigation, footer, and pages are styled consistently with the existing design, including dark mode.
+
+6.  **Code Upload**:
+    *   Commit and push all changes to the GitHub repository.
